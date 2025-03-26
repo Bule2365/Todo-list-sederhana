@@ -33,7 +33,7 @@ delete_task.php   → Menghapus tugas
 ## 🔧 Instalasi & Konfigurasi
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/username/todo-list.git
+   git clone https://github.com/Bule2365/Todo-list-sederhana.git
    cd todo-list
    ```
 
