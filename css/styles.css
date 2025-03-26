@@ -1,0 +1,145 @@
+/* 🌞 Light Mode */
+body.light-mode {
+  background-color: #e3f2fd; /* Biru muda */
+  color: #333;
+}
+
+body.light-mode .container {
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode h2 {
+  color: #0d6efd; /* Biru Bootstrap */
+}
+
+body.light-mode .form-control {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ced4da;
+}
+
+body.light-mode button.btn-primary {
+  background-color: #0d6efd; /* Biru Bootstrap */
+}
+
+body.light-mode .list-group-item {
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .list-group-item:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .alert {
+  background-color: #d1ecf1; /* Biru muda */
+  color: #0c5460;
+  border-color: #bee5eb;
+}
+
+body.light-mode .text-decoration-line-through {
+  color: #adb5bd;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background-color: #121212; /* Gelap */
+  color: #ffffff;
+}
+
+body.dark-mode .container {
+  background: #1e1e1e; /* Abu-abu gelap */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode h2 {
+  color: #ff4d4d; /* Merah terang */
+}
+
+body.dark-mode .form-control {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark-mode button.btn-primary {
+  background-color: #ff4d4d; /* Merah */
+  border: none;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #2a2a2a;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .list-group-item:hover {
+  background-color: #333;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .alert {
+  background-color: #333;
+  color: #ffffff;
+  border-color: #555;
+}
+
+body.dark-mode .text-decoration-line-through {
+  color: #bbb;
+}
+
+/* 🌓 Dark Mode Toggle Button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #ff4d4d; /* Merah untuk dark mode */
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Animasi Transisi */
+body,
+button,
+.list-group-item {
+  transition: all 0.3s ease-in-out;
+}
