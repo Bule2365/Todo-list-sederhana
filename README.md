@@ -55,9 +55,13 @@ delete_task.php   → Menghapus tugas
 ---
 
 ## 📸 Tampilan Aplikasi
+---
 ![Screenshot](assets/Screenshot%20(248).png)
+---
 ![Screenshot](assets/Screenshot%20(249).png)
+---
 ![Screenshot](assets/Screenshot%20(250).png)
+
 
 ---
 
